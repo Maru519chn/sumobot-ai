@@ -1,0 +1,41 @@
+{
+  "conversation_history": [
+    {
+      "user": "Hola",
+      "ai": "¡Hola!\n\nSoy tu mentor en sumobot, soy un experto en mini sumos y estaré encantado de ayudarte con cualquier pregunta que tengas sobre este emocionante deporte robótico.\n\n¿Qué quieres saber? ¿Quieres mejorar tus habilidades de sumo, cambiar el hardware o la estrategia de tu bot? ¿O quizás quieres saber cómo se juega en competencia y qué son las reglas básicas del mini sumo?\n\nEstoy aquí para ayudarte, ¡así que no dudes en preguntar!\n\n**TÉCNICO**\n\n¿Quieres saber sobre el funcionamiento de los motor",
+      "time": "13:57"
+    },
+    {
+      "user": "¿Me das código para TCRT5000?",
+      "ai": "¡Hola! Me alegra poder ayudarte con tu pregunta sobre el TCRT5000.\n\nEl TCRT5000 es un sensor de radiofrecuencia (RF) que se utiliza comúnmente en robots sumos para detectar las fronteras y evitar chocar con los oponentes. A continuación, te proporciono un ejemplo básico de código para usar el TCRT5000 en un robot sumo:\n\n**Código del TCRT5000**\n```c\n#include <Wire.h>\n\nconst int pinTCRT = A0;  // Pin del sensor TCRT5000\n\nvoid setup() {\n  Serial.begin(9600);  // Inicia la comunicación serial a 9600",
+      "time": "13:57"
+    },
+    {
+      "user": "Excelente. Ahora, ehh. Cada que me salga se me va reinciar el cmd. So, cómo hago un archivo de cmd q",
+      "ai": "¡Hola! Entiendo tu problema con el problema recurrente del comando.\n\nPara solucionar esto, necesitaré saber qué sistema operativo estás utilizando (Windows o Linux). Sin embargo, te puedo dar algunas instrucciones generales que deberían funcionar en ambos casos:\n\n**En Windows:**\n\n1. Crea un archivo de texto llamado \"abierto_directori.py\" y agrega el siguiente código:\n```python\nimport os\nos.startfile(r'C:\\ruta\\a\\directorio\\donde\\te\\instalaste')\n```\nReemplaza `\\C:\\ruta\\a\\directori\\donde\\te\\instala",
+      "time": "14:03"
+    },
+    {
+      "user": "Windows, y este es el directorio:",
+      "ai": "**¡Hola! Soy tu mentor en sumobot**\n\nEntiendo que estás buscando información sobre cómo funciona un sumobot en Windows y tienes un directorio llamado `sumobot_data`. ¡No te preocupes, estoy aquí para ayudarte!\n\n**Configuración del entorno**\n\nPara empezar a trabajar con tu sumobot, necesitas asegurarte de que tengas el entorno adecuado. Aquí te presento algunos pasos básicos:\n\n1. **Instalar los drivers de hardware**: Necesitarás instalar los drivers de hardware para tus motors y otros componentes",
+      "time": "14:04"
+    },
+    {
+      "user": "C:\\Users\\epicm\\sumobot-ai-mentor",
+      "ai": "¡Hola! Soy tu Mini Sumo Expert, aquí para ayudarte con cualquier pregunta o duda que tengas sobre sumobot.\n\n**TÉCNICO**\n\n* ¿Cuál es el problema específico que estás experimentando con tu sumobot? ¿Es un error de conexión con el hardware, un problema con la estrategia de juego o algo más?\n* ¿Has intentado solucionar el problema por ti mismo? Si es así, ¿cuál ha sido el paso que has tomado hasta ahora?\n\n**DIRECTO**\n\n* ¿Necesitas ayuda para configurar tu sumobot o ajustar sus parametros?\n* ¿Quieres",
+      "time": "14:04"
+    },
+    {
+      "user": "C:\\Users\\epicm\\sumobot-ai-mentorC:\\Users\\epicm\\sumobot-ai-mentorC:\\Users\\epicm\\sumobot-ai-mentorExce",
+      "ai": "¡Hola! Entiendo que estás buscando una forma de crear un archivo de comandos (cmd) personalizado que abra el directorio de instalación de tu sumo bot directamente en el escritorio.\n\n**Solución técnica:**\n\n1. Abre Notepad o cualquier editor de texto en tu escritorio.\n2. Escribe lo siguiente:\n```\n@echo off\ncd C:\\Users\\epicm\\sumobot-ai-mentor\n```\n3. Guarda el archivo con un nombre como \"abrir_sumobot.cmd\" (o cualquier nombre que prefieras).\n4. Asegúrate de seleccionar la opción \"Guardar como tipo d",
+      "time": "14:06"
+    }
+  ],
+  "project_bible": {
+    "rules": "Mini Sumo: 500g, 10x10cm, IR edge sensors",
+    "hardware": "N20 motors + TB6612FNG + TCRT5000",
+    "strategy": "SEARCH→ATTACK→EDGE_AVOID"
+  },
+  "last_update": "2026-04-18 14:06:29",
+  "files_count": 201
+}
